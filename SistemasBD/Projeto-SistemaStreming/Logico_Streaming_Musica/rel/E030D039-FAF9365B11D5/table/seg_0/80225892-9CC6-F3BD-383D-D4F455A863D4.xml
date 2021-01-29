@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80225892-9CC6-F3BD-383D-D4F455A863D4" name="album">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>5B970234-BA1B-C93A-E15E-29A258CC78C7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_album" id="1AD3E7E2-81CB-A210-B991-B3957A820F7D">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>D5CF0F04-BC1A-A2F9-D307-54A7EC540039</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C7823C8-097C-54CD-F355-E872FD0547D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="671FD120-95B6-4F45-22F1-29C7BFB7ABEB">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>04D89FA2-52DF-D5D0-519B-A0ABB2ACC824</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71611757-F797-D9F3-4F2B-132246168840</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_lancamento" id="8E7C1421-6296-D6B7-BC96-118D5778D7B9">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>C28706B3-B9BD-AB4A-06C0-36720D7262EF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A9EE75AF-53A8-A205-D8C7-07E183CD0684</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_capa" id="A5481981-44B8-BBCB-C6E7-E91786AA139C">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>48E361F8-E2C0-882A-49DB-93FB7B6E9EB6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>0D80385B-CA21-819A-B2E6-2B07AA559116</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gravadora" id="8893917D-36A2-5E09-8AD1-A0FC9560D8A9">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>743013B6-7EAD-C440-DA33-B376D771FDC3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71611757-F797-D9F3-4F2B-132246168840</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6996AB2-666C-A261-E7B2-133E44E2770C" name="album_pk">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>B251D4D6-950E-D962-DACA-A41E1B06AECC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD3E7E2-81CB-A210-B991-B3957A820F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

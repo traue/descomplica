@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="999D5F5A-6B98-2E8F-1782-BFE383855309" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:04 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</StorageDesignOraclev12cR2>

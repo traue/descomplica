@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F156188-609A-02B8-71F7-DA8550466D24" containerWithKeyObject="C8C51A52-3BD8-F053-CEBC-4177493708D2" localFKIndex="2A8A53E3-019F-D1AB-AEF6-066D197E2B2B" name="cobranca_plano_FK">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 19:09:27 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<referredTableLongName>plano</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>487F0084-E8BA-EBEF-BBFD-0A61F6E8E6FA</referredTableID>
+<keyObject>0D61BC9B-E075-A8D1-C1D9-7ABBB1007E8E</keyObject>
+<referredKeyID>0D61BC9B-E075-A8D1-C1D9-7ABBB1007E8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

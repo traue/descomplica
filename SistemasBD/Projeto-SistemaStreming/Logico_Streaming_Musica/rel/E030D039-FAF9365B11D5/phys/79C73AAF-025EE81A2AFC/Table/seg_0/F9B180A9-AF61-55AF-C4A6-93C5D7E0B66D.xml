@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="musica" directorySegmentName="seg_0" id="F9B180A9-AF61-55AF-C4A6-93C5D7E0B66D">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="estilo_id_estilo" id="0C83DDE8-137A-9BC4-EAD1-A842792F6A57">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="letra" id="3A079772-BB56-5963-1936-87820B84D2DF">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="titulo" id="3EBB095E-A1D4-244C-1A34-E80B1757ED4E">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tags" id="43499F91-B8FE-56E0-52FE-AFA967521B69">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_musica" id="7238A936-D43E-67B9-CC2D-3A6C20863949">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="arquivo" id="79521531-3C35-8FED-14D1-FE920BFF3D68">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ano" id="98D71AC8-35C9-A84C-3A79-2EC96EDAE65A">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artista_id_artista" id="AAFEB5EE-6C7A-8F1E-E7EF-367DC13E28C6">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="duracao" id="C16618DF-2724-AD26-1DB8-1BA24F7F383C">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="musica_artista_fk" id="1AD06942-0E59-BCF6-25DB-916DBDC6EBB8">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="musica_estilo_fk" id="4BFB1725-6A76-451A-D158-CDDE452D1589">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="musica_pk" id="1602CADD-F7A3-A012-9C46-BF47B8484707">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

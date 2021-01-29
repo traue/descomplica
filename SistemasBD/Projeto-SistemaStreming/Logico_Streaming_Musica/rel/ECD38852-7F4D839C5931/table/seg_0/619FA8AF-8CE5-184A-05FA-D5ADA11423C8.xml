@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="619FA8AF-8CE5-184A-05FA-D5ADA11423C8" name="usuario">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:37:32 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="92494C4F-160E-43E6-9059-23E3AC52DC69">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="6AB58D2E-36C3-0843-1B31-63EC2E77F5EB">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="0F5B8C05-FA80-2A5D-F70B-7CD103D53768">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="9E4FF6C0-181E-B401-EF5C-C96BEFCCF47E">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="ECE0E00C-BA8E-D8C1-5B0E-42D58FB8C97F">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario_resp" id="9A233ED8-1513-760D-6AA5-46A2217E918A">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:44:26 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0360367-5DE1-75DF-6D06-0B2DEC7A120F" referredColumn="92494C4F-160E-43E6-9059-23E3AC52DC69"/>
+</associations>
+</Column>
+<Column name="plano_id_plano" id="5913B719-891B-4F72-8DBA-5751F47E6391">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:48:14 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5562AF2-0E03-D954-D42B-2683236EC8E4" referredColumn="821710AC-7EAB-0630-576E-1351634413C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CE1B471-04D3-E858-0350-541168CF56DD" name="usuario_PK">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:39:25 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92494C4F-160E-43E6-9059-23E3AC52DC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E7D03CA-911D-D795-FE86-5B5C7597421C" name="id_responsavel">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:44:26 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A233ED8-1513-760D-6AA5-46A2217E918A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="478951B6-46E1-DBCC-B150-5614C7B0AA0F" name="usuario_plano_FK">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 18:48:14 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5913B719-891B-4F72-8DBA-5751F47E6391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

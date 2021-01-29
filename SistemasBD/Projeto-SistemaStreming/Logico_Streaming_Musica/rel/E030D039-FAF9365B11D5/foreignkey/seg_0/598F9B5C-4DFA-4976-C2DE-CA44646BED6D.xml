@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="598F9B5C-4DFA-4976-C2DE-CA44646BED6D" containerWithKeyObject="7409DEE0-D8BB-47AF-0A8C-3ED8C99ECFC5" localFKIndex="99227842-A279-3110-F9AF-6ED185AC9D70" name="cartao_credito_usuario_fk">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>7AB330F7-2305-692E-580F-4913EA0E695E</importedID>
+<referredTableLongName>usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>520D64B5-D5C6-8689-A3F6-14A544ACD036</referredTableID>
+<keyObject>B2449AF0-0BDE-E781-C861-C9A529B515C4</keyObject>
+<referredKeyID>B2449AF0-0BDE-E781-C861-C9A529B515C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

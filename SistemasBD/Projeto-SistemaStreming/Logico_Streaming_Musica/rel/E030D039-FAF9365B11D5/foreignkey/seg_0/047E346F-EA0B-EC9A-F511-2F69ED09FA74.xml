@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="047E346F-EA0B-EC9A-F511-2F69ED09FA74" containerWithKeyObject="FF600DC8-93A7-16D3-CC5C-7F3D3DDD76DD" localFKIndex="2243CAA4-F087-61AC-76BD-20A00051C7E2" name="lista_reprod_fk">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>B9D4DB87-F4A3-D9E4-CEB9-B353687BC98F</importedID>
+<referredTableLongName>lista_reprod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>432F741A-75B0-84CD-99CB-2692C25E0F63</referredTableID>
+<keyObject>5D0D62B8-786C-ACA3-FC37-EEC376E2E4C2</keyObject>
+<referredKeyID>5D0D62B8-786C-ACA3-FC37-EEC376E2E4C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lista</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

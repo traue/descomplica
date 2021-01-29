@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SCRIPTS - DDL" id="E030D039-E293-661F-D5D3-FAF9365B11D5" mainViewID="FEE742E1-441C-2977-3231-73CA694C3F5A">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:01 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>SCRIPTS - DDL.sql</fileName>
+<pathName>/Users/thiagograzianitraue/Dropbox/Descomplica/Produção de material/Sistemas de Bancos de Dados/util/Projeto-SistemaStreming</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

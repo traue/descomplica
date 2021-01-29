@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF600DC8-93A7-16D3-CC5C-7F3D3DDD76DD" name="rel_lista_musica">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>DBCF44A0-568C-99DA-9E7E-6C7873990D54</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="musica_id_musica" id="BB53E0DF-ED46-F3C1-EFD4-AFD18B9D0BD6">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>606A9C83-B9D5-2C5F-6334-672DF885082D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73CD62D3-C595-8C20-EE61-DB5382D7098C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45113936-422B-69DC-4C91-704169969ADD" referredColumn="7238A936-D43E-67B9-CC2D-3A6C20863949"/>
+</associations>
+</Column>
+<Column name="lista_reprod_id_lista" id="91A4E3F6-EED0-4FBF-CB26-69FDF7C59494">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>BACFDED5-85CC-F3C6-C954-ABD74788A947</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C7823C8-097C-54CD-F355-E872FD0547D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="047E346F-EA0B-EC9A-F511-2F69ED09FA74" referredColumn="82BE80D5-DE64-5909-AA64-90AFDEE4DA1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2243CAA4-F087-61AC-76BD-20A00051C7E2" name="lista_reprod_fk">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91A4E3F6-EED0-4FBF-CB26-69FDF7C59494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="582C6703-CB8C-9BB4-FB34-B79C0D11E880" name="musica_fk">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB53E0DF-ED46-F3C1-EFD4-AFD18B9D0BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

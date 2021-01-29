@@ -1,0 +1,44 @@
+Modelagem conceitual de um jogo de corrida de formula 1
+
+
+Assim que o jogo inicia-se pela primeira vez, o jogador deve
+criar um perfil para ele. Este perfil tem um nome que pode
+ser editado pelo usuário (como na Netflix: QUem está assistindo?,
+mas neste caso "quem está jogando?") e um ícone a ser
+escolhido pelo usuário dentro as várias opções disponíveis.
+
+Ao selecionar o perfil, o jogador deve, pela primeira vez,
+escolher para qual equipe ele quer correr (Ferrari, Audi,
+McLaren, Mercedes, Williams, Renault...).
+
+Cada equipe tem um nome e um brasão.
+Cada equipe é de um país e, claro, o país pode ter várias equipes.
+
+Ao selecionar a equipe, o jogador deve escolher com quem
+ele quer correr, ou seja, o "piloto" que o representará.
+
+O piloto é associado á uma única equipe e cada equipe pode ter
+vários pilotos.
+
+Cada piloto tem um nome, uma idade, um peso, uma imagem, e
+uma série de habilidades (velocidade, traçado, ultrapassagem, defesa,
+pilotagem em pista molhada etc.). Cada habilidade é dada
+por uma escala de 1 a 5.
+
+Ao selecionar o piloto, o jogador receberá automaticamente o
+carro deste piloto. Cada piloto tem apenas um carro.
+Os carros possuem características podem ser personalizados,
+tipo de pneu, etc.
+
+Pronto, agora o jogador está pronto para ingressar num
+campeonato.
+
+Cada campeonato possui um número de partidas.
+Cada partida ocorre em uma pista.
+Cada pista possui uma localização (pais), um nome e um
+grau de dificuldade (de 1 a 5).
+
+Cada partida possui um número voltas.
+Ganha a partida quem, na última volta, chegar em primeiro.
+Deve ser registra nessa partida o ranking de cada jogador.
+Ganha o campeonato quem chegar em primeiro mais vezes.

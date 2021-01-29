@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="886E3DC5-50ED-32E9-61BD-585FDCABB8DA" mainViewID="D0EB3847-7CF8-0056-F623-D40742362A1B">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 01:52:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

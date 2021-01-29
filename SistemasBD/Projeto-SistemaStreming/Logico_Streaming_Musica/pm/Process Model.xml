@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A7D19322-D7F8-88A2-A907-B0E70BC5A56C">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 01:52:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Logico_Streaming_Musica" id="8BCBF303-0EA6-D527-89CC-12F9653D7DF0" version="3.5">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 01:52:06 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8BCBF303-0EA6-D527-89CC-12F9653D7DF0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D07E2C6F-D2DA-5EBA-B4A0-347F37B5B79E">
+<designStoragePath>/SCRIPTS - DDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

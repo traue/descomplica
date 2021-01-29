@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="333184D9-3E13-17F6-B9B1-5E83FC7A0482" containerWithKeyObject="2C274FF1-7B89-1F53-E651-5C18B5126EB5" localFKIndex="57C9DA9A-2F61-E347-4DF7-12B710BD29BE" name="musica_artista_FK">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 02:50:29 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<referredTableLongName>artista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A59E2EA4-941C-2011-63CB-8C60EB8312E5</referredTableID>
+<keyObject>CF0EDA86-C8AA-C463-34B6-401AEB4ABB1D</keyObject>
+<referredKeyID>CF0EDA86-C8AA-C463-34B6-401AEB4ABB1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_artista</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E145694-C7E0-ADB7-FE83-AD2578454E4D" containerWithKeyObject="439509DC-DA21-6FB6-E5A9-91417309BA4E" localFKIndex="D37CCB82-245F-78E7-2B12-5A8DBA0DE52F" name="rel_musica_album_musica_fk">
+<sourceDDLFile>SCRIPTS - DDL.sql</sourceDDLFile>
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-22 02:03:07 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<importedID>7AF0880E-0C67-6C31-A13B-2D7D25509194</importedID>
+<referredTableLongName>musica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9B180A9-AF61-55AF-C4A6-93C5D7E0B66D</referredTableID>
+<keyObject>1602CADD-F7A3-A012-9C46-BF47B8484707</keyObject>
+<referredKeyID>1602CADD-F7A3-A012-9C46-BF47B8484707</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_musica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

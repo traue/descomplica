@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A4F3B2A-2616-EB1A-6403-A0DFBD0E6B74" name="estilo">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 02:58:33 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estilo" id="A3E42532-7ED2-58BC-056A-A7A638D93A8E">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 02:59:26 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="ACB72665-482D-7F21-AD8D-A0FC5B9ED3E4">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 02:59:26 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8069C93-DE02-32E9-1EA5-CA0F287B01E0" name="estilo_PK">
+<createdBy>thiagograzianitraue</createdBy>
+<createdTime>2020-10-21 02:59:26 UTC</createdTime>
+<ownerDesignName>Logico_Streaming_Musica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E42532-7ED2-58BC-056A-A7A638D93A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
