@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
     <title>Classes e IDs</title>
 </head>
 <body>
     
+    <p class="primeiraClasse">
+        Este é um parágrafo com um estilo aplicado através de uma classe! :D
+    </p>
+
+    <p id="primeiroId">
+        Este é um parágrafo com um estilo aplicado através de uma classe! :D
+    </p>
+
+    <p class="segundaClasse">
+        Este é outro parágrafo com uma classe aplicada apenas às TAGs de parágrafos! :D
+    </p>
+
+    <div class="primeiraClasse">
+        Este texto está dentro de uma div, com a mesma classe do primeiro parágrafo! :P
+    </div>
+
+    <!-- Não aplica pois a classe "segundaClasse" só existe para a TAG "p" (vide CSS) -->
+    <div class="segundaClasse">
+        Este texto está dentro de uma div, com a mesma classe do terceiro parágrafo! :P
+    </div>
+
 </body>
 </html>

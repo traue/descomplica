@@ -1,2 +1,16 @@
+.primeiraClasse {
+    background: lightblue;
+    border-style: dashed; 
+    border-color: red;
+}
 
-/* fazer */
+p.segundaClasse {
+    background: pink;
+    border-style: double;
+    border-color: purple;
+}
+
+#primeiroId {
+    background-color: lightgoldenrodyellow;
+    border: dotted;
+}
