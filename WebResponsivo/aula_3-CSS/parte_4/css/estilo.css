@@ -1,0 +1,41 @@
+#corpo{
+    border: 5px dotted red;
+    background: lightgreen;
+}
+
+.bloco{
+    background: lightsalmon;
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;  /* variar aqui right, none, left */
+}
+
+
+.bloco1{
+    background: lightsalmon;
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;  /* variar aqui */
+}
+
+.conteudo-zero{
+    background: red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.paragrafo{
+    clear: both;
+}
