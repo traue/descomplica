@@ -1,0 +1,37 @@
+body {
+    background: rgb(200, 245, 190);
+}
+
+.conteudo {
+    background: white;
+    font-size: 24px;
+    width: 900px;
+    margin: 30px auto; /* auto = centraliza a margem direita e esquerda */
+    padding: 8px;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+    position: relative;
+}
+
+.relativo {
+    border: 2px dotted blue;
+    position: relative;
+
+    /* propriedades de deslocamento do relativo */
+    /* Piode ter: top, right, botton, left */
+    top: -50px;
+    left: 60px;
+}
+
+/* 
+    O posicionamento RELATIVO permite que, a partir de 
+    onde o elemento seria renderizado, ele seja DESLOCADO
+    de forma relativa, ou seja, distânciando-se da posição
+    original.
+*/

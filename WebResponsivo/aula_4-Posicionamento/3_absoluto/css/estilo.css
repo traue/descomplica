@@ -1,0 +1,43 @@
+body {
+    background: rgb(200, 245, 190);
+}
+
+.conteudo {
+    background: white;
+    font-size: 24px;
+    width: 900px;
+    margin: 30px auto; /* auto = centraliza a margem direita e esquerda */
+    padding: 8px;
+
+    /* Incluir depois de mostrar o aboluto em relação ao body: */
+    position: relative;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+    position: relative;
+}
+
+.absoluto {
+    border: 2px dotted blue;
+    position: absolute;
+
+    /* propriedades de deslocamento do ABOSLUTE: */
+    /* Pode ter: top, right, botton, left */
+    /* variar aqui */
+    right: 50px;
+    top: 50px;
+}
+
+/* 
+    Quando definimos uma posição ABOSLUTA o elemento sai do fluxo
+    normal do documento e não afeta a posição de nenhum outro elemento. 
+    Entretando é importante tomar cuidado com o posicionamento.
+    A posição é calculada em relação ao componente "pai" (container) que possui
+    o elemento abosluto. Se o container pai não possui propriedade de posicionamento
+    ele pega do "pai do pai", até o body. 
+*/

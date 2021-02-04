@@ -1,0 +1,29 @@
+body {
+    background: rgb(200, 245, 190);
+}
+
+.conteudo {
+    background: white;
+    font-size: 24px;
+    width: 900px;
+    margin: 30px auto; /* auto = centraliza a margem direita e esquerda */
+    padding: 8px;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+    position: relative;
+}
+
+
+/* 
+    O posicionamento estático é o padrão em 
+    todos os elementos, ou seja, os elementos
+    que são do tipo "bloco" aparecem um "em cima"
+    do outro 
+
+*/

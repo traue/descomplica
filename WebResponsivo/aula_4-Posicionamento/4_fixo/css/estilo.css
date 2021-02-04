@@ -1,0 +1,42 @@
+body {
+    background: rgb(200, 245, 190);
+}
+
+.conteudo {
+    background: white;
+    font-size: 24px;
+    width: 900px;
+    margin: 30px auto; /* auto = centraliza a margem direita e esquerda */
+    padding: 8px;
+
+    /* Incluir depois de mostrar o aboluto em relação ao body: */
+    position: relative;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+    position: relative;
+}
+
+.fixo {
+    border: 2px dotted blue;
+    position: fixed;
+    margin: 0;
+    /* propriedades de deslocamento do ABOSLUTE: */
+    /* Pode ter: top, right, botton, left */
+    /* variar aqui */
+
+    bottom: 0px;
+    right: 0px;
+}
+
+/* 
+    O posicionamento fixo "cola" o componente independentemente da rolagem 
+    da interface. 
+    Tem o mesmo comportamento do abosluto, mas a rolagem não interfere
+    no posicionamento
+*/
