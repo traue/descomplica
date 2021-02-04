@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+   <title>Página Bootstrap</title>
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+         <a class="navbar-brand" href="index.html">Descomplica</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar"
+            aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link 1</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link 2</a>
+               </li>
+               <li class="nav-item">
+                  <!-- retirado o desabled e incluido um link comum para uma página de contato -->
+                  <!-- <a class="nav-link disabled" href="#">Desabilitado</a> -->
+                  <a class="nav-link" href="cadastro.html">Cadastro</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropDown" data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">Submenu</a>
+                  <div class="dropdown-menu" aria-labelledby="dropDown">
+                     <a class="dropdown-item" href="#">Primeiro item</a>
+                     <a class="dropdown-item" href="#">Segundo item</a>
+                     <a class="dropdown-item" href="#">Terceiro item</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">Quarto item</a>
+                  </div>
+               </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Search">
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+         </div>
+      </nav>
+   </header>
+
+   <main role="main">
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+            <h1 class="display-5">Faça seu cadastro</h1>
+            <p>
+               Faça seu cadastro em nosso super site:
+            </p>
+         </div>
+      </div>
+
+      <!-- Três colunas -->
+      <div class="container formulario">
+         <form>
+            <div class="form-group">
+               <div class="form-row">
+                  <div class="col">
+                     <label for="email">Primeiro nome:</label>
+                     <input type="text" required class="form-control" id="email" placeholder="Informe seu nome">
+                  </div>
+                  <div class="col">
+                     <label for="email">Sobrenome:</label>
+                     <input type="text" class="form-control" id="email" placeholder="Informe seu sobrenome">
+                  </div>
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="email">E-mail:</label>
+               <input type="email" required class="form-control" id="email" placeholder="Informe seu e-mail">
+               <small class="form-text text-muted">Não compartilhamos seu endereço de e-mail com terceiros.</small>
+            </div>
+            <div class="form-group">
+               <label for="email">Senha:</label>
+               <input type="password" required class="form-control" id="email" placeholder="Informe uma senha">
+            </div>
+
+            <div class="form-group form-check">
+               <input type="checkbox" class="form-check-input">
+               <label class="form-check-label">Quero receber novidades por e-mail</label>
+            </div>
+            <div class="form-group form-check">
+               <input type="checkbox" required class="form-check-input">
+               <label class="form-check-label">Li e aceito os <a href="#">termos de uso.</a></label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+         </form>
+
+      </div>
+      <hr>
+      </div>
+
+   </main>
+
+   <!-- rodapé -->
+   <footer class="container">
+      <p>© Descomplica :)</p>
+   </footer>
+
+</body>
+
+</html>
