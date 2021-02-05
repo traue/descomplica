@@ -74,41 +74,47 @@
          </div>
       </div>
 
-      <!-- Três colunas -->
-      <div class="container formulario">
-         <form>
-            <div class="form-group">
-               <div class="form-row">
-                  <div class="col">
-                     <label for="email">Primeiro nome:</label>
-                     <input type="text" required class="form-control" id="email" placeholder="Informe seu nome">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 formulario">
+               <form>
+                  <div class="form-group">
+                     <div class="form-row">
+                        <div class="col">
+                           <label for="email">Primeiro nome:</label>
+                           <input type="text" required class="form-control" id="email" placeholder="Informe seu nome">
+                        </div>
+                        <div class="col">
+                           <label for="email">Sobrenome:</label>
+                           <input type="text" class="form-control" id="email" placeholder="Informe seu sobrenome">
+                        </div>
+                     </div>
                   </div>
-                  <div class="col">
-                     <label for="email">Sobrenome:</label>
-                     <input type="text" class="form-control" id="email" placeholder="Informe seu sobrenome">
+                  <div class="form-group">
+                     <label for="email">E-mail:</label>
+                     <input type="email" required class="form-control" id="email" placeholder="Informe seu e-mail">
+                     <small class="form-text text-muted">Não compartilhamos seu endereço de e-mail com
+                        terceiros.</small>
                   </div>
-               </div>
-            </div>
-            <div class="form-group">
-               <label for="email">E-mail:</label>
-               <input type="email" required class="form-control" id="email" placeholder="Informe seu e-mail">
-               <small class="form-text text-muted">Não compartilhamos seu endereço de e-mail com terceiros.</small>
-            </div>
-            <div class="form-group">
-               <label for="email">Senha:</label>
-               <input type="password" required class="form-control" id="email" placeholder="Informe uma senha">
-            </div>
+                  <div class="form-group">
+                     <label for="email">Senha:</label>
+                     <input type="password" required class="form-control" id="email" placeholder="Informe uma senha">
+                  </div>
 
-            <div class="form-group form-check">
-               <input type="checkbox" class="form-check-input">
-               <label class="form-check-label">Quero receber novidades por e-mail</label>
+                  <div class="form-group form-check">
+                     <input type="checkbox" class="form-check-input">
+                     <label class="form-check-label">Quero receber novidades por e-mail</label>
+                  </div>
+                  <div class="form-group form-check">
+                     <input type="checkbox" required class="form-check-input">
+                     <label class="form-check-label">Li e aceito os <a href="#">termos de uso.</a></label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+               </form>
             </div>
-            <div class="form-group form-check">
-               <input type="checkbox" required class="form-check-input">
-               <label class="form-check-label">Li e aceito os <a href="#">termos de uso.</a></label>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
-         </form>
+         </div>
+
+
 
       </div>
       <hr>
