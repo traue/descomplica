@@ -22,10 +22,12 @@
 
     echo '</pre>';
 
+    //dados de conexão com o banco
     $server = "localhost";
     $db = "aula_php_temp";
     $user = "root";
     $pass = "";
+
     //Cria a conexão:
     $conn = mysqli_connect($server, $user, $pass, $db);
 
@@ -36,16 +38,20 @@
         echo 'Conectado!';
     }
 
+    //query a ser executada
     $sql = "INSERT INTO tb_usuarios
     (nome, sobrenome, email, senha, newsletter)
     VALUES
     ('{$nome}', '${sobrenome}', '{$email}', '${senhaHash}', $newsletter)";
     
+    //roda a query e testa. Se deu certo, redireciona
     if (mysqli_query($conn, $sql)) {
         echo "Registro inserido com sucesso!<br>";
         header('Location: sucesso.html'); //redireciona para a página de sucesso
     } else {
         echo "<br>Erro: " . $sql . "<br>" . mysqli_error($conn);
     }
+
+    //fecha a conexão
     mysqli_close($conn);
 ?>
