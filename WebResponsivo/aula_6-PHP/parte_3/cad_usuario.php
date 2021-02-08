@@ -10,9 +10,9 @@
     $email = $_POST['email'];
     $senha = $_POST['password'];
     $senhaHash = sha1($senha);
-    $newsletter = isset($_POST['newsletter']) ? true : false; //if ternário
+    $newsletter = isset($_POST['newsletter']) ? 1 : 0; //if ternário
 
-    //teste:
+    //testes:
     echo $nome .'<br>';
     echo $sobrenome .'<br>';
     echo $email .'<br>';
@@ -28,9 +28,10 @@
     $pass = "";
     //Cria a conexão:
     $conn = mysqli_connect($server, $user, $pass, $db);
+
     // Verifica a conexão:
     if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+        die("Falha de conexão: " . mysqli_connect_error());
     } else {
         echo 'Conectado!';
     }
@@ -41,12 +42,10 @@
     ('{$nome}', '${sobrenome}', '{$email}', '${senhaHash}', $newsletter)";
     
     if (mysqli_query($conn, $sql)) {
-        echo "New record created successfully";
+        echo "Registro inserido com sucesso!<br>";
+        header('Location: sucesso.html'); //redireciona para a página de sucesso
     } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        echo "<br>Erro: " . $sql . "<br>" . mysqli_error($conn);
     }
     mysqli_close($conn);
-
- 
-
 ?>
