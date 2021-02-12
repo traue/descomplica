@@ -9,9 +9,13 @@
     width: 250px;
     height: 250px;
     margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    /* Para alinhar o conteúdo verticalmente no centro: */
+    line-height: 250px;
+    /* ou */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     float: left;  /* variar aqui right, none, left */
 }
 
@@ -22,9 +26,12 @@
     width: 250px;
     height: 250px;
     margin: 20px;
-    display: flex;
+    text-align: center;
+    /* Para alinhar o conteúdo verticalmente no centro: */
+    line-height: 250px;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     float: right;  /* variar aqui */
 }
 
