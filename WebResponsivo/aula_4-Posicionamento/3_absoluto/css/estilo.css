@@ -36,7 +36,7 @@ p {
 /* 
     Quando definimos uma posição ABOSLUTA o elemento sai do fluxo
     normal do documento e não afeta a posição de nenhum outro elemento. 
-    Entretando é importante tomar cuidado com o posicionamento.
+    Entretanto é importante tomar cuidado com o posicionamento.
     A posição é calculada em relação ao componente "pai" (container) que possui
     o elemento abosluto. Se o container pai não possui propriedade de posicionamento
     ele pega do "pai do pai", até o body. 
