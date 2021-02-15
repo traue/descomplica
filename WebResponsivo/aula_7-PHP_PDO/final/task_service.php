@@ -36,7 +36,7 @@
 		public function deleteTask() {
 			$query = "DELETE FROM tasks WHERE taskId = :taskId";
 			$stm = $this->conn->prepare($query);
-			$stm->bindValue(':taskId', $this->tarefa->__get('taskId'));
+			$stm->bindValue(':taskId', $this->task->__get('taskId'));
 			return $stm->execute();
 		}
 	}
