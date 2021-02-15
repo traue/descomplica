@@ -32,7 +32,7 @@
             <h5>Incluir tarefa:</h5>
             <form  method="POST" action="task_controller.php?act=addTask">
             <div class="input-group">
-                <input type="text" name="task" required class="form-control" placeholder="Nova tarefa...">
+                <input type="text" name="task" required class="form-control" autofocus placeholder="Nova tarefa...">
                 <div class="input-group-append">
                     <button class="btn btn-primary" type="submit">Adicionar</button>
                 </div>
@@ -42,7 +42,7 @@
             <h2>Sua lita de tarefas:</h2>
             <?php foreach($tasks as $t) : ?>
             <ul>
-                <li><?= $t["task"] ?> <a href="task_controller.php?act=excluir&taskId=<?=$t["taskId"]?>" class="btn btn-sm btn-success">Concluída</a></li>
+                <li><?= $t["task"] ?> - <a href="task_controller.php?act=deleteTask&taskId=<?=$t["taskId"]?>" class="btn btn-sm btn-success">Concluir</a></li>
             </ul>
             <?php endforeach ?>
         </div>
