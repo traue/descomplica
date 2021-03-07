@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +9,9 @@
 <body>
     <div id="wrapper">
     <?php
-        function getRealIpAddr(){
-            if ( !empty($_SERVER['HTTP_CLIENT_IP']) ) {
-             // Check IP from internet.
-             $ip = $_SERVER['HTTP_CLIENT_IP'];
-            } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']) ) {
-             // Check IP is passed from proxy.
-             $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-            } else {
-             // Get IP address from remote address.
-             $ip = $_SERVER['REMOTE_ADDR'];
-            }
-            return $ip;
-           }
-           
-        $ip = getRealIpAddr();
+        $ip = $_SERVER['REMOTE_ADDR'];
         echo 'Seu ip externo é '.$ip;
         echo '<br>';
-        $ip = $_SERVER['REMOTE_ADDR'];
         $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}/json"));
         echo '<br>';
         echo 'Você está próximo a: '.$details->city; 
@@ -34,10 +19,12 @@
         echo 'Região: '.$details->region; 
         echo '<br>';
         echo 'País: '.$details->country; 
+        echo '<br>';
+        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+        echo 'Seu browser está configurado na lingua: '.$lang; 
     ?>
     </div>
-
-
+    <br>
     <hr>
     <a href="index2.html">Localização mais precisa com JavaScript...</a>
 </body>
