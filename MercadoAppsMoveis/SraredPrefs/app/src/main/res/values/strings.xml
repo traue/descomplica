@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SharedPrefs</string>
+    <string name="nameTxt">Nome completo</string>
+    <string name="ageTxt">Idade</string>
+    <string name="smokingTxt">Fumante?</string>
+    <string name="yes">Sim</string>
+    <string name="no">No</string>
+    <string name="okBt">Ok</string>
+</resources>
