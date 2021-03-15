@@ -35,8 +35,7 @@ public class MainActivity extends AppCompatActivity {
             String name = editName.getText().toString();
             int age = Integer.parseInt(editAge.getText().toString());
 
-
-
+            //fazer a lógica
 
 
         } catch (NumberFormatException ex) {
