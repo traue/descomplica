@@ -65,11 +65,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cleanButton(View v) {
-        editAge.getText().clear();
-        editName.getText().getFilters();
+        editAge.setText("");
+        editName.setText("");
         checkSmoke.setChecked(false);
     }
-
 
     private void loadSharedPref() {
         try {
