@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Listinha DB</string>
+    <string name="titulo_da_nota">Título da Nota</string>
+    <string name="incluir">Incluir</string>
+    <string name="insira_seu_texto">Insira seu texto</string>
+    <string name="salvar_nota">Salvar Nota</string>
+    <string name="campo_vazio">Não pode ser vazio!!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="titulo_nao_vazio">O titulo da nota não pode ser vazio!!</string>
+    <string name="remover_da_lista">Remover da lista?</string>
+</resources>
