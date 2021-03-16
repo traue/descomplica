@@ -1,4 +1,4 @@
-package br.uninove.tempo_app
+package com.example.tempo_app
 
 import io.flutter.embedding.android.FlutterActivity
 

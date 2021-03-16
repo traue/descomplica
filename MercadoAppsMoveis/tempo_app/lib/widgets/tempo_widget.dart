@@ -13,7 +13,7 @@ class Tempo extends StatelessWidget {
     return Column(
       children: [
         Image.network(
-          'http://openweathermap.org/img/wn/${temperatura.icone}.png',
+          'https://openweathermap.org/img/wn/${temperatura.icone}.png',
           fit: BoxFit.fill,
           width: 80.0,
         ),
