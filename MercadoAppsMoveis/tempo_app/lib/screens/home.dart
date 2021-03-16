@@ -58,12 +58,20 @@ class _HomeState extends State<Home> {
       isLoading = true;
     });
 
-    String appid = 'XXXX'; //Coloque a sua chave de api aqui!
+    String appid = '70490ee3c06c559a659a5d846008bbd3';
     String lang = 'pt_br';
     String units = 'metric';
 
-    final tempoReponse = await http.get(
-        'https://api.openweathermap.org/data/2.5/weather?q=$_cidadeSelecionada&appid=$appid&units=$units&lang=$lang');
+    final _apiUrl = 'api.openweathermap.org';
+    final _path = '/data/2.5/weather';
+    final _params = {
+      "q" : _cidadeSelecionada,
+      "appid" : appid,
+      "units" : units,
+      "lang" : lang
+    };
+
+    final tempoReponse = await http.get(Uri.https(_apiUrl, _path, _params));
 
     print('Url montada: ' + tempoReponse.request.url.toString());
 
