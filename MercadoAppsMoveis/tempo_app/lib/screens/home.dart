@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
     'Vitoria'
   ];
 
-  String _cidadeSelecionada = "São Paulo";
+  String _cidadeSelecionada = "Rio de Janeiro";
 
   @override
   void initState() {
