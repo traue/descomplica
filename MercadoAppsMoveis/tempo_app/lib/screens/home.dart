@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
     print('Url montada: ' + tempoReponse.request.url.toString());
 
     if (tempoReponse.statusCode == 200) {
-      return setState(() {
+      return setState (() {
         tempoData = TempoData.fromJson(jsonDecode(tempoReponse.body));
         isLoading = false;
       });
