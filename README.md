@@ -7,7 +7,7 @@
 ### Cursos de pós-graduação - Disciplinas
 
 - [Desenvolvimento Web Responsivo](https://github.com/traue/descomplica/tree/master/WebResponsivo " - Desenvolvimento Web Responsivo")
-- Mercado de aplicações móveis (em desenvolvimento)
+- [Mercado de aplicações móveis](https://github.com/traue/descomplica/tree/master/MercadoAppsMoveis)
 - Desenvolvimento mobile com Flutter (em desenvolvimento)
 
 
