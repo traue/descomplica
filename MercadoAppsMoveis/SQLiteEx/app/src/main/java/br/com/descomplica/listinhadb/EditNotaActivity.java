@@ -1,4 +1,4 @@
-package br.uninove.listinhadb;
+package br.com.descomplica.listinhadb;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import br.uninove.listinhadb.model.Nota;
+import br.com.descomplica.listinhadb.model.Nota;
 
 public class EditNotaActivity extends AppCompatActivity {
 

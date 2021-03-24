@@ -1,4 +1,4 @@
-package br.uninove.listinhadb.model;
+package br.com.descomplica.listinhadb.model;
 
 
 import java.io.Serializable;

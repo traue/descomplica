@@ -1,4 +1,4 @@
-package br.uninove.listinhadb;
+package br.com.descomplica.listinhadb;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +19,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import br.uninove.listinhadb.model.Nota;
+import br.com.descomplica.listinhadb.model.Nota;
 
 public class MainActivity extends AppCompatActivity {
 
